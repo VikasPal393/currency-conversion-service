@@ -16,7 +16,7 @@ public class CurrencyConversionBean {
 		// TODO Auto-generated constructor stub
 	}
 	public CurrencyConversionBean(Long id, String from, String to, BigDecimal conversionMultiple, BigDecimal quantity,
-			BigDecimal total) {
+			BigDecimal total,int port) {
 		super();
 		this.id = id;
 		this.from = from;
@@ -24,6 +24,7 @@ public class CurrencyConversionBean {
 		this.conversionMultiple = conversionMultiple;
 		this.quantity = quantity;
 		this.total = total;
+		this.port = port;
 	}
 	public Long getId() {
 		return id;
